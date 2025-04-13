@@ -1,0 +1,35 @@
+{
+  "name": "strapi-extending-user-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application to showcase extending users-permissions plugin",
+  "scripts": {
+    "build": "strapi build",
+    "console": "strapi console",
+    "deploy": "strapi deploy",
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.12.4",
+    "@strapi/plugin-users-permissions": "5.12.4",
+    "@strapi/strapi": "5.12.4",
+    "better-sqlite3": "11.3.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "4c65f564-11d0-4008-9d15-1902b45f1264"
+  }
+}
